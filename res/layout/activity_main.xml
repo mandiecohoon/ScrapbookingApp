@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.scrapbookingapp.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="178dp"
+        android:layout_height="105dp"
+        android:layout_weight="0.62"
+        android:contentDescription="@string/moon_text"
+        android:scaleType="fitXY"
+        android:src="@drawable/moon" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/moon_text" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="177dp"
+        android:layout_height="134dp"
+        android:layout_weight="1.09"
+        android:contentDescription="@string/rom_text"
+        android:scaleType="fitCenter"
+        android:src="@drawable/rom" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rom_text" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="176dp"
+        android:layout_height="122dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/niagarafalls_text"
+        android:src="@drawable/niagarafalls" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/niagarafalls_text" />
+
+</LinearLayout>
